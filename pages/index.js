@@ -4,14 +4,14 @@ import { getRandomInt } from "../src/utilities";
 
 import AboutComponent from "../src/components/AboutComponent";
 import Drops from "../src/components/Drops";
-import GameModesComponent from "../src/components/GamemodesComponent";
+import GameModesComponent from "../src/components/GameModesComponent";
 import Layout from "../src/layout/Layout";
 
 export async function getServerSideProps() {
   const randomBg = getRandomInt(6);
- 
+
   // Pass data to the page via props
-  return { props: { randomBg } }
+  return { props: { randomBg } };
 }
 
 const Index = ({ randomBg }) => {
@@ -32,13 +32,10 @@ const Index = ({ randomBg }) => {
         <div className="hero_content">
           <div className="container">
             <div className="content">
-              <img className="fn_logo" src="img/logo-full.png" width="65%"/>
+              <img className="fn_logo" src="img/logo-full.png" width="65%" />
             </div>
           </div>
-          <a
-            href="#about"
-            className="neoh_fn_down magic-hover magic-hover__square"
-          >
+          <a href="#about" className="neoh_fn_down magic-hover magic-hover__square">
             <span className="text">Scroll Down</span>
             <span className="icon">
               <img src="svg/right-arr.svg" alt="" className="fn__svg" />
