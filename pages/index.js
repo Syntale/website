@@ -32,7 +32,9 @@ const Index = ({ randomBg }) => {
         <div className="hero_content">
           <div className="container">
             <div className="content">
-              <img className="fn_logo" src="img/logo-full.png" width="65%" />
+              <div className="align-icon">
+                <img className="fn_logo" src="img/logo-full.png" width="65%" />
+              </div>
             </div>
           </div>
           <a href="#about" className="neoh_fn_down magic-hover magic-hover__square">

@@ -389,6 +389,11 @@ a.full_link{
 	filter: drop-shadow(0 0 0.75rem #1A1A1A);
 }
 
+.align-icon {
+	display: flex;
+	justify-content: center;
+}
+
 .neoh_fn_hero .fn_title{
 	max-width: 500px;
 	margin: 0 auto;
