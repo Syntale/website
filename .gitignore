@@ -5,3 +5,5 @@
 .env
 .package-lock.json
 /prisma/migrations/
+/prisma/dev.db
+/out/
