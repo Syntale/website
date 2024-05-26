@@ -37,7 +37,7 @@ export const neoh_fn_moving_blog = () => {
 export const stickyNav = () => {
   let offset = window.scrollY;
   const stickys = document.querySelectorAll(".neoh_fn_header");
-  
+
   for (let i = 0; i < stickys.length; i++) {
     const sticky = stickys[i];
     if (sticky) {
@@ -125,16 +125,16 @@ export const getRandomInt = (max) => {
   return Math.floor(Math.random() * max);
 };
 
-export const homeClasses = () => {
-  let pathname = window.location.pathname;
-  const borders = document.querySelectorAll(".neoh_fn_header");
-  const logos = document.querySelectorAll(".logo");
-
-  [...borders, ...logos].forEach((item) => {
-    if (pathname == "/") {
-        item.classList.add("home");
-      } else {
-        item.classList.remove("home");
-      }
-  });
-};
+// export const homeClasses = () => {
+//   let pathname = window.location.pathname;
+//   const borders = document.querySelectorAll(".neoh_fn_header");
+//   const logos = document.querySelectorAll(".logo");
+//
+//   [...borders, ...logos].forEach((item) => {
+//     if (pathname == "/") {
+//         item.classList.add("home");
+//       } else {
+//         item.classList.remove("home");
+//       }
+//   });
+// };

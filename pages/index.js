@@ -20,7 +20,7 @@ const Index = () => {
   }, []);
 
   return (
-    <Layout pageName={"Home"}>
+    <Layout pageName={"Home"} isHome={true}>
       {/* Hero Header */}
       <div className="neoh_fn_hero">
         {/* Overlay (of hero header) */}
