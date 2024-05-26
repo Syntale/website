@@ -1,20 +1,24 @@
-import Image from "next/image";
-
 import { getRandomInt } from "../src/utilities";
 
 import AboutComponent from "../src/components/AboutComponent";
-import Drops from "../src/components/Drops";
 import GameModesComponent from "../src/components/GameModesComponent";
 import Layout from "../src/layout/Layout";
+import {useEffect, useState} from "react";
 
-export async function getServerSideProps() {
-  const randomBg = getRandomInt(6);
+// export async function getServerSideProps() {
+//   const randomBg = getRandomInt(6);
+//
+//   // Pass data to the page via props
+//   return { props: { randomBg } };
+// }
 
-  // Pass data to the page via props
-  return { props: { randomBg } };
-}
+const Index = () => {
+  let [randomBg, setRandomBg] = useState(0);
 
-const Index = ({ randomBg }) => {
+  useEffect(() => {
+    setRandomBg(getRandomInt(6));
+  }, []);
+
   return (
     <Layout pageName={"Home"}>
       {/* Hero Header */}
@@ -52,7 +56,6 @@ const Index = ({ randomBg }) => {
       {/* Game Modes Section */}
       <GameModesComponent />
       {/* !Game Modes Section */}
-      <Drops />
     </Layout>
   );
 };

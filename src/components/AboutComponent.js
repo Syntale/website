@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 const AboutComponent = () => {
   return (
     <section id="about">
@@ -49,7 +48,7 @@ const AboutComponent = () => {
         {/* About Item #2 */}
         <div className="neoh_fn_about_item reverse">
           <div className="img_item">
-            <Image src="https://ready2frag.com/favicon/favicon-og.png" style={{width: 600, height: 600}} alt="Ready2Frag Favicon" width={1000} height={1000}/>
+            <img src="https://ready2frag.com/favicon/favicon-og.png" style={{width: 600, height: 600}} alt="Ready2Frag Favicon" width={1000} height={1000}/>
           </div>
           <div className="content_item">
             <div className="neoh_fn_title" data-align="left">

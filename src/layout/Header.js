@@ -1,15 +1,9 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import CopyrightComponent from "../components/CopyrightComponent";
-import {signIn, signOut, useSession} from "next-auth/react";
 
 
 const Header = () => {
-
-  const { data: session, status } = useSession()
-
-
-
 
   const [toggle, setToggle] = useState(false);
   // const [homeToggle, setHomeToggle] = useState(false);
@@ -63,37 +57,6 @@ const Header = () => {
               <li className="menu-item">
                 <Link href="/contact">Contact</Link>
               </li>
-
-              {session ? (
-                <Fragment>
-                  <li className="menu-item">
-                    <Link href="/dashboard/[[...activeTab]]">Dashboard</Link>
-                  </li>
-                  <li className="menu-item">
-                    <a
-                      onClick={(e) => {
-                        e.preventDefault();
-                        signOut({
-                          callbackUrl: "/",
-                        });
-                      }}
-                    >
-                      Logout
-                    </a>
-                  </li>
-                </Fragment>
-              ) : (
-                <li className="menu-item">
-                  <a
-                    onClick={(e) => {
-                      e.preventDefault();
-                      signIn("discord");
-                    }}
-                  >
-                    Login
-                  </a>
-                </li>
-              )}
             </ul>
           </div>
           <div className="nav_buttons">
