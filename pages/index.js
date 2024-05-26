@@ -13,11 +13,7 @@ import {useEffect, useState} from "react";
 // }
 
 const Index = () => {
-  let [randomBg, setRandomBg] = useState(0);
-
-  useEffect(() => {
-    setRandomBg(getRandomInt(6));
-  }, []);
+  let [randomBg, setRandomBg] = useState(getRandomInt(6));
 
   return (
     <Layout pageName={"Home"} isHome={true}>
