@@ -55,7 +55,7 @@ const Header = () => {
                 <Link href="/#about">About</Link>
               </li>
               <li className="menu-item">
-                <Link href="/contact">Contact</Link>
+                <Link href="https://discord.com/invite/syntale">Contact</Link>
               </li>
             </ul>
           </div>
