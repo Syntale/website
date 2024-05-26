@@ -14,19 +14,15 @@ const Footer = () => {
               <div className="fb_right">
                 <ul>
                   <li>
-                    <a
-                    href="https://discord.com/invite/syntale"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Discord
+                    <a href="https://discord.com/invite/syntale" target="_blank" rel="noreferrer">
+                      Discord
                     </a>
                   </li>
                   <li>
                     <a href="#">Cookies</a>
                   </li>
                   <li>
-                    <a href="#">Terms &amp; Conditions</a>
+                    <a href="http://us.syntale.net/privacypolicy.html">Terms &amp; Conditions</a>
                   </li>
                 </ul>
               </div>
