@@ -67,7 +67,7 @@ const AboutComponent = () => {
               </p>
               <p>
                 We have dedicated technicians to resolve issues with the servers as fast as
-                possible. Our goal is to provide yosu with the best possible Unturned experience.
+                possible. Our goal is to provide you with the best possible Unturned experience.
               </p>
             </div>
             <div className="buttons">
