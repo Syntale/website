@@ -2,16 +2,8 @@ const GameModesComponent = () => {
   return (
     <section id="services">
       {/* Dividers */}
-      <img
-        src="svg/divider.svg"
-        alt=""
-        className="fn__svg fn__divider top_divider"
-      />
-      <img
-        src="svg/divider.svg"
-        alt=""
-        className="fn__svg fn__divider bottom_divider"
-      />
+      <img src="svg/divider.svg" alt="" className="fn__svg fn__divider top_divider" />
+      <img src="svg/divider.svg" alt="" className="fn__svg fn__divider bottom_divider" />
       {/* !Dividers */}
       <div className="container">
         {/* Main Title */}
@@ -32,11 +24,7 @@ const GameModesComponent = () => {
                 </div>
                 <div className="item_content">
                   <h3 className="fn_title">Survival PVP</h3>
-                  <p className="fn_desc">
-                    A collection of 5,000 unique NEOHs built to go beyond the
-                    digital space that will unlock numerous benefits for our
-                    community.
-                  </p>
+                  <p className="fn_desc">Fast-paced PvP with increased loot. Join for an intense PvP environment.</p>
                 </div>
               </div>
             </li>
@@ -48,9 +36,7 @@ const GameModesComponent = () => {
                 <div className="item_content">
                   <h3 className="fn_title">Semi Vanilla</h3>
                   <p className="fn_desc">
-                    The NEOH collection includes dozens of rare heads, costumes,
-                    and colorways of the artists palette. They are drawn with
-                    great care.
+                    Balanced loot with TPA, home, and vaults. A mix of vanilla and convenience features.
                   </p>
                 </div>
               </div>
@@ -63,9 +49,7 @@ const GameModesComponent = () => {
                 <div className="item_content">
                   <h3 className="fn_title">Modded</h3>
                   <p className="fn_desc">
-                    Tasty design resources made with care for each pixel.
-                    Tokens, NFTs, metaverse and game resources. Access
-                    additional drops.
+                    Semi Vanilla with added mods for extra content. Offers a richer Unturned experience.
                   </p>
                 </div>
               </div>
@@ -76,11 +60,9 @@ const GameModesComponent = () => {
                   <span>04</span>
                 </div>
                 <div className="item_content">
-                  <h3 className="fn_title">Immersive Roleplay</h3>
+                  <h3 className="fn_title">Semi-RP</h3>
                   <p className="fn_desc">
-                    Be part of a community of neoh owners and create user
-                    generated items. Rent, advertise, lounch stores, create
-                    items.
+                    Light roleplay with community interactions. Build, trade, and survive in a semi-immersive setting.
                   </p>
                 </div>
               </div>
@@ -92,4 +74,4 @@ const GameModesComponent = () => {
     </section>
   );
 };
-export default GameModesComponent
+export default GameModesComponent;
