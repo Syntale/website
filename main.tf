@@ -1,36 +1,31 @@
-terraform {
-  required_providers {
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "~> 3.0.1"
-    }
+data "aws_caller_identity" "current" {}
+
+# tfsec:ignore:aws-ecr-repository-customer-key
+resource "aws_ecr_repository" "repository" {
+  name                 = var.repository_name
+  image_tag_mutability = "IMMUTABLE"
+  image_scanning_configuration {
+    scan_on_push = true
+  }
+
+  encryption_configuration {
+    encryption_type = "KMS"
   }
 }
 
-# Configure the docker provider
-provider "docker" {
+resource "aws_ecr_lifecycle_policy" "name" {
+  repository = aws_ecr_repository.repository.name
+  policy     = templatefile(var.lifecycle_policy, {})
 }
 
-# Create a docker image resource
-# -> docker pull syntale/website:latest
-resource "docker_image" "website" {
-  name         = "syntale/website"
-  build {
-    context = "."
-    tag     = ["syntale/website"]
-    label = {
-      author : "Sun Beam <sunbeamprojects9@gmail.com>"
+resource "aws_ecr_registry_scanning_configuration" "scan_configuration" {
+  scan_type = "ENHANCED"
+
+  rule {
+    scan_frequency = "CONTINUOUS_SCAN"
+    repository_filter {
+      filter      = "*"
+      filter_type = "WILDCARD"
     }
-  }
-}
-
-# Create a docker container resource
-resource "docker_container" "website" {
-  name    = "syntale-website"
-  image   = docker_image.website.image_id
-
-  ports {
-    external = 8080
-    internal = 80
   }
 }
