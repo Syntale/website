@@ -2,19 +2,14 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 import CopyrightComponent from "../components/CopyrightComponent";
 
-
 const Header = () => {
-
   const [toggle, setToggle] = useState(false);
   // const [homeToggle, setHomeToggle] = useState(false);
 
   return (
     <Fragment>
       {/* Right Navigation */}
-      <div
-        className={`nav_overlay ${toggle ? "go" : ""}`}
-        onClick={() => setToggle(false)}
-      />
+      <div className={`nav_overlay ${toggle ? "go" : ""}`} onClick={() => setToggle(false)} />
       <div className={`neoh_fn_nav ${toggle ? "go" : ""}`}>
         <div className="trigger is-active">
           <div className="trigger_in" onClick={() => setToggle(false)}>
@@ -55,17 +50,12 @@ const Header = () => {
                 <Link href="/#about">About</Link>
               </li>
               <li className="menu-item">
-                <Link href="/contact">Contact</Link>
+                <Link href="https://discord.com/invite/syntale">Contact</Link>
               </li>
             </ul>
           </div>
           <div className="nav_buttons">
-            <a
-              href="https://discord.com/invite/syntale"
-              className="neoh_fn_button"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://discord.com/invite/syntale" className="neoh_fn_button" target="_blank" rel="noreferrer">
               <span className="icon">
                 <img src="svg/discord.svg" alt="" className="fn__svg" />
               </span>
