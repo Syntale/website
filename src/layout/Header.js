@@ -44,13 +44,13 @@ const Header = () => {
                 </ul>
               </li> */}
               <li className="menu-item">
-                <Link href="/">Home</Link>
+                <Link href="/">Syntale</Link>
               </li>
               <li className="menu-item">
-                <Link href="/#about">About</Link>
+                <Link href="/unturned">Unturned</Link>
               </li>
               <li className="menu-item">
-                <Link href="https://discord.com/invite/syntale">Contact</Link>
+                <Link href="https://discord.com/invite/syntale" target="_blank" rel="noreferrer">Discord</Link>
               </li>
             </ul>
           </div>
