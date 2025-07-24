@@ -13,9 +13,6 @@ export default function Document({ pageName }) {
         />
         {/* <!-- !Google Fonts --> */}
 
-        {/* <!-- Styles --> */}
-        <link type="text/css" rel="stylesheet" href="css/plugins.css" />
-        <link type="text/css" rel="stylesheet" href="css/style.css?ver=1.1" />
       </Head>
       <body>
         <Main />

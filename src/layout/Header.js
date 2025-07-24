@@ -11,10 +11,7 @@ const Header = () => {
   return (
     <Fragment>
       {/* Right Navigation */}
-      <div
-        className={`nav_overlay ${toggle ? "go" : ""}`}
-        onClick={() => setToggle(false)}
-      />
+      <div className={`nav_overlay ${toggle ? "go" : ""}`} onClick={() => setToggle(false)} />
       <div className={`neoh_fn_nav ${toggle ? "go" : ""}`}>
         <div className="trigger is-active">
           <div className="trigger_in" onClick={() => setToggle(false)}>
@@ -49,23 +46,18 @@ const Header = () => {
                 </ul>
               </li> */}
               <li className="menu-item">
-                <Link href="/">Home</Link>
+                <Link href="/">Syntale</Link>
               </li>
               <li className="menu-item">
-                <Link href="/#about">About</Link>
+                <Link href="/unturned">Unturned</Link>
               </li>
               <li className="menu-item">
-                <Link href="https://discord.com/invite/syntale">Contact</Link>
+                <Link href="https://discord.com/invite/syntale" target="_blank" rel="noreferrer">Discord</Link>
               </li>
             </ul>
           </div>
           <div className="nav_buttons">
-            <a
-              href="https://discord.com/invite/syntale"
-              className="neoh_fn_button"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://discord.com/invite/syntale" className="neoh_fn_button" target="_blank" rel="noreferrer">
               <span className="icon">
                 <img src="svg/discord.svg" alt="" className="fn__svg" />
               </span>

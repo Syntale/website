@@ -84,4 +84,4 @@ const GameModesComponent = () => {
     </section>
   );
 };
-export default GameModesComponent
+export default GameModesComponent;
