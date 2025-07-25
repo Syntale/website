@@ -19,7 +19,7 @@ const RustIndex = () => {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-md mx-auto mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">Coming Soon</h3>
             <p className="text-gray-300 mb-6">
-              We're working hard to bring you the best Rust server experience. 
+              We&apos;re working hard to bring you the best Rust server experience. 
               Join our Discord to stay updated on the launch!
             </p>
             <a 

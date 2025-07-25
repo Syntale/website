@@ -19,7 +19,7 @@ const MinecraftIndex = () => {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-md mx-auto mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">Coming Soon</h3>
             <p className="text-gray-300 mb-6">
-              We're crafting the perfect Minecraft experience for our community. 
+              We&apos;re crafting the perfect Minecraft experience for our community. 
               Join our Discord to be the first to know when we launch!
             </p>
             <a 

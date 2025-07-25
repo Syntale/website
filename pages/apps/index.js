@@ -19,7 +19,7 @@ const AppsIndex = () => {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-md mx-auto mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">Coming Soon</h3>
             <p className="text-gray-300 mb-6">
-              We're developing innovative gaming applications and tools to enhance 
+              We&apos;re developing innovative gaming applications and tools to enhance 
               your gaming experience across all platforms.
             </p>
             <a 

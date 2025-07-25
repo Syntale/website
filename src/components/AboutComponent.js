@@ -34,7 +34,7 @@ const AboutComponent = () => {
                 className="neoh_fn_button"
               >
                 <span className="icon">
-                  <img src="svg/discord.svg" alt="" className="fn__svg" />
+                  <img src="/svg/discord.svg" alt="" className="fn__svg" />
                 </span>
                 <span className="text">Discord</span>
               </a>

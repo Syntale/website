@@ -7,13 +7,13 @@ const ProductPopup = ({ open, close, img, title, dec }) => {
         <div className="modal_in">
           <div className="modal_closer">
             <a onClick={() => close()}>
-              <img src="svg/cancel.svg" alt="" className="fn__svg" />
+              <img src="/svg/cancel.svg" alt="" className="fn__svg" />
             </a>
           </div>
           <div className="modal_content">
             <div className="neoh_fn_product_modal">
               <div className="img_item">
-                <img src={img} />
+                <img src={img} alt={title} />
               </div>
               <div className="content_item">
                 <div className="neoh_fn_title" data-align="left">
@@ -39,7 +39,7 @@ const ProductPopup = ({ open, close, img, title, dec }) => {
                     className="neoh_fn_button opensea"
                   >
                     <span className="icon">
-                      <img src="svg/opensea.svg" alt="" className="fn__svg" />
+                      <img src="/svg/opensea.svg" alt="" className="fn__svg" />
                     </span>
                     <span className="text">View on OpenSea</span>
                   </a>
@@ -50,7 +50,7 @@ const ProductPopup = ({ open, close, img, title, dec }) => {
                     className="neoh_fn_button discord disable"
                   >
                     <span className="icon">
-                      <img src="svg/discord.svg" alt="" className="fn__svg" />
+                      <img src="/svg/discord.svg" alt="" className="fn__svg" />
                     </span>
                     <span className="text">View on Discord</span>
                   </a>

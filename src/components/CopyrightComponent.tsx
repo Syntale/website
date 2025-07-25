@@ -7,8 +7,8 @@ const CopyrightComponent = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Syntale
-                  </a> - Developed by Sun Beam
+                    Syntale LLC
+                  </a>
                 </p>
     );
 }

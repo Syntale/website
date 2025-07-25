@@ -3,12 +3,12 @@ const GameModesComponent = () => {
     <section id="services">
       {/* Dividers */}
       <img
-        src="svg/divider.svg"
+        src="/svg/divider.svg"
         alt=""
         className="fn__svg fn__divider top_divider"
       />
       <img
-        src="svg/divider.svg"
+        src="/svg/divider.svg"
         alt=""
         className="fn__svg fn__divider bottom_divider"
       />

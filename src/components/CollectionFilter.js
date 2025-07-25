@@ -17,7 +17,7 @@ const CollectionFilter = () => {
           <a className="full_link" onClick={() => setType(!type)} />
           <span className="text">Type</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -32,7 +32,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -44,7 +44,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -56,7 +56,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -68,7 +68,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -89,7 +89,7 @@ const CollectionFilter = () => {
           />
           <span className="text">Special</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -108,7 +108,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -124,7 +124,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -140,7 +140,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -156,7 +156,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -172,7 +172,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -188,7 +188,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -204,7 +204,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1534</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -220,7 +220,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1235</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -243,7 +243,7 @@ const CollectionFilter = () => {
           />
           <span className="text">Clothing</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -262,7 +262,7 @@ const CollectionFilter = () => {
                     <span className="amount">- 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -278,7 +278,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -294,7 +294,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -310,7 +310,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -326,7 +326,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -342,7 +342,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -358,7 +358,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1534</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -374,7 +374,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1235</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -392,7 +392,7 @@ const CollectionFilter = () => {
           <a className="full_link c-pointer" onClick={() => setHair(!hair)} />
           <span className="text">Hair</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -407,7 +407,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -419,7 +419,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -431,7 +431,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -443,7 +443,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -455,7 +455,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -467,7 +467,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -479,7 +479,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1534</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -491,7 +491,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1235</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -503,7 +503,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 345</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -515,7 +515,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 600</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -533,7 +533,7 @@ const CollectionFilter = () => {
           <a className="full_link c-pointer" onClick={() => setFace(!face)} />
           <span className="text">Face</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -548,7 +548,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -560,7 +560,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -572,7 +572,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -584,7 +584,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -596,7 +596,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -614,7 +614,7 @@ const CollectionFilter = () => {
           <a className="full_link c-pointer" onClick={() => setEyes(!eyes)} />
           <span className="text">Eyes</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -629,7 +629,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -641,7 +641,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -653,7 +653,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -665,7 +665,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -677,7 +677,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -695,7 +695,7 @@ const CollectionFilter = () => {
           <a className="full_link c-pointer" onClick={() => setMouth(!mouth)} />
           <span className="text">Mouth</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -714,7 +714,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -730,7 +730,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -746,7 +746,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -762,7 +762,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -778,7 +778,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -794,7 +794,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 490</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -812,7 +812,7 @@ const CollectionFilter = () => {
           <a className="full_link c-pointer" onClick={() => setNeck(!neck)} />
           <span className="text">Neck</span>
           <span className="icon">
-            <img src="svg/down.svg" alt="" className="fn__svg" />
+            <img src="/svg/down.svg" alt="" className="fn__svg" />
           </span>
         </div>
         {/* !Filter Header */}
@@ -827,7 +827,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 3100</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -839,7 +839,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 4764</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -851,7 +851,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 1280</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>
@@ -863,7 +863,7 @@ const CollectionFilter = () => {
                     <span className="amount"> - 2716</span>
                     <input type="checkbox" />
                     <span className="checkmark">
-                      <img src="svg/checked.svg" alt="" className="fn__svg" />
+                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                   </label>
                 </div>

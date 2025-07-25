@@ -22,7 +22,7 @@ const Footer = () => {
                     <a href="#">Cookies</a>
                   </li>
                   <li>
-                    <a href="http://us.syntale.net/privacypolicy.html">Terms &amp; Conditions</a>
+                    <a href="/privacy-policy">Privacy Policy</a>
                   </li>
                 </ul>
               </div>

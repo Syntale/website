@@ -19,8 +19,8 @@ const HostingIndex = () => {
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-md mx-auto mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">Coming Soon</h3>
             <p className="text-gray-300 mb-6">
-              We're preparing to offer top-tier game server hosting with the same 
-              quality and reliability you've come to expect from Syntale.
+              We&apos;re preparing to offer top-tier game server hosting with the same 
+              quality and reliability you&apos;ve come to expect from Syntale.
             </p>
             <a 
               href="https://discord.com/invite/syntale" 

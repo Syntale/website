@@ -30,13 +30,13 @@ const Timeline = () => {
                   <div className="neoh_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
-                        <img src="img/timeline/1/1.jpg" alt="" />
+                        <img src="/img/timeline/1/1.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/1/2.jpg" alt="" />
+                        <img src="/img/timeline/1/2.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/1/3.jpg" alt="" />
+                        <img src="/img/timeline/1/3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -70,13 +70,13 @@ const Timeline = () => {
                   <div className="neoh_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
-                        <img src="img/timeline/2/1.jpg" alt="" />
+                        <img src="/img/timeline/2/1.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/2/2.jpg" alt="" />
+                        <img src="/img/timeline/2/2.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/2/3.jpg" alt="" />
+                        <img src="/img/timeline/2/3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -110,13 +110,13 @@ const Timeline = () => {
                   <div className="neoh_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
-                        <img src="img/timeline/3/1.jpg" alt="" />
+                        <img src="/img/timeline/3/1.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/3/2.jpg" alt="" />
+                        <img src="/img/timeline/3/2.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/3/3.jpg" alt="" />
+                        <img src="/img/timeline/3/3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -150,13 +150,13 @@ const Timeline = () => {
                   <div className="neoh_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
-                        <img src="img/timeline/4/1.jpg" alt="" />
+                        <img src="/img/timeline/4/1.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/4/2.jpg" alt="" />
+                        <img src="/img/timeline/4/2.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/4/3.jpg" alt="" />
+                        <img src="/img/timeline/4/3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -190,13 +190,13 @@ const Timeline = () => {
                   <div className="neoh_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
-                        <img src="img/timeline/5/1.jpg" alt="" />
+                        <img src="/img/timeline/5/1.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/5/2.jpg" alt="" />
+                        <img src="/img/timeline/5/2.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/5/3.jpg" alt="" />
+                        <img src="/img/timeline/5/3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -230,13 +230,13 @@ const Timeline = () => {
                   <div className="neoh_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
-                        <img src="img/timeline/6/1.jpg" alt="" />
+                        <img src="/img/timeline/6/1.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/6/2.jpg" alt="" />
+                        <img src="/img/timeline/6/2.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/6/3.jpg" alt="" />
+                        <img src="/img/timeline/6/3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -270,13 +270,13 @@ const Timeline = () => {
                   <div className="neoh_fn_gallery_1_2">
                     <div className="gallery_in">
                       <div className="item row2">
-                        <img src="img/timeline/7/1.jpg" alt="" />
+                        <img src="/img/timeline/7/1.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/7/2.jpg" alt="" />
+                        <img src="/img/timeline/7/2.jpg" alt="" />
                       </div>
                       <div className="item">
-                        <img src="img/timeline/7/3.jpg" alt="" />
+                        <img src="/img/timeline/7/3.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -318,7 +318,7 @@ const Timeline = () => {
               )
             }
           >
-            <img src="svg/right-arr.svg" alt="" className="fn__svg" />
+            <img src="/svg/right-arr.svg" alt="" className="fn__svg" />
           </a>
           <a
             onClick={() =>
@@ -328,7 +328,7 @@ const Timeline = () => {
             }
             className="nav_next c-pointer"
           >
-            <img src="svg/right-arr.svg" alt="" className="fn__svg" />
+            <img src="/svg/right-arr.svg" alt="" className="fn__svg" />
           </a>
           {/* !Nav */}
           <div className="progress_line_wrapper">

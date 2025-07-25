@@ -78,17 +78,22 @@ export const imgToSVG = () => {
         const xmlDoc = parser.parseFromString(response, "text/html");
         let svg = xmlDoc.querySelector("svg");
 
-        if (typeof imgID !== "undefined") {
-          svg.setAttribute("id", imgID);
+        if (svg) {
+          if (typeof imgID !== "undefined") {
+            svg.setAttribute("id", imgID);
+          }
+
+          if (typeof imgClass !== "undefined") {
+            svg.setAttribute("class", imgClass + " replaced-svg");
+          }
+
+          svg.removeAttribute("xmlns:a");
+
+          el.parentNode && el.parentNode.replaceChild(svg, el);
         }
-
-        if (typeof imgClass !== "undefined") {
-          svg.setAttribute("class", imgClass + " replaced-svg");
-        }
-
-        svg.removeAttribute("xmlns:a");
-
-        el.parentNode && el.parentNode.replaceChild(svg, el);
+      })
+      .catch((error) => {
+        console.log("Failed to load SVG:", imgURL, error);
       });
   });
 };

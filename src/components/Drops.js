@@ -71,7 +71,7 @@ const Drops = () => {
                   data-modal-discord-url=""
                 >
                   <div className="img_holder">
-                    <img src="img/drops/1.jpg" alt="" />
+                    <img src="/img/drops/1.jpg" alt="" />
                     <a className="full_link" onClick={() => onClick(1)} />
                   </div>
                   <div className="title_holder">
@@ -91,7 +91,7 @@ const Drops = () => {
                   data-modal-discord-url="#"
                 >
                   <div className="img_holder">
-                    <img src="img/drops/2.jpg" alt="" />
+                    <img src="/img/drops/2.jpg" alt="" />
                     <a onClick={() => onClick(2)} className="full_link" />
                   </div>
                   <div className="title_holder">
@@ -111,7 +111,7 @@ const Drops = () => {
                   data-modal-discord-url=""
                 >
                   <div className="img_holder">
-                    <img src="img/drops/3.jpg" alt="" />
+                    <img src="/img/drops/3.jpg" alt="" />
                     <a onClick={() => onClick(3)} className="full_link" />
                   </div>
                   <div className="title_holder">
@@ -131,7 +131,7 @@ const Drops = () => {
                   data-modal-discord-url=""
                 >
                   <div className="img_holder">
-                    <img src="img/drops/4.jpg" alt="" />
+                    <img src="/img/drops/4.jpg" alt="" />
                     <a onClick={() => onClick(4)} className="full_link" />
                   </div>
                   <div className="title_holder">
@@ -151,7 +151,7 @@ const Drops = () => {
                   data-modal-discord-url=""
                 >
                   <div className="img_holder">
-                    <img src="img/drops/5.jpg" alt="" />
+                    <img src="/img/drops/5.jpg" alt="" />
                     <a onClick={() => onClick(5)} className="full_link" />
                   </div>
                   <div className="title_holder">
@@ -171,7 +171,7 @@ const Drops = () => {
                   data-modal-discord-url=""
                 >
                   <div className="img_holder">
-                    <img src="img/drops/6.jpg" alt="" />
+                    <img src="/img/drops/6.jpg" alt="" />
                     <a onClick={() => onClick(6)} className="full_link" />
                   </div>
                   <div className="title_holder">
