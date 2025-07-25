@@ -1,4 +1,5 @@
 import CopyrightComponent from "../components/CopyrightComponent";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
                     <a href="#">Cookies</a>
                   </li>
                   <li>
-                    <a href="/privacy-policy">Privacy Policy</a>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>

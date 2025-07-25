@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
 
           <div className="prose prose-invert max-w-none">
             <p className="mb-6">
-              This Privacy Policy describes how Syntale Network ("we", "our", or "us") collects, uses, and discloses your 
+              This Privacy Policy describes how Syntale Network (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) collects, uses, and discloses your 
               Personal Data when you use our Service. It also outlines your data protection rights, including the right to 
               object to some of the processing we carry out.
             </p>
@@ -39,13 +39,13 @@ const PrivacyPolicy = () => {
             <div className="space-y-3 mb-8">
               <p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
               
-              <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+              <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
               
               <p><strong>Application</strong> refers to Syntale, the software program provided by the Company.</p>
               
               <p><strong>Servers</strong> refer to the Unturned servers provided by the Company.</p>
               
-              <p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Syntale Network, 123 N Sea RD, Southampton, NY 11969, PO Box 1530.</p>
+              <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Syntale Network, 123 N Sea RD, Southampton, NY 11969, PO Box 1530.</p>
               
               <p><strong>Cookies</strong> are small files that are placed on Your computer, mobile device, or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p>
               
@@ -163,7 +163,7 @@ const PrivacyPolicy = () => {
               We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
             </p>
             <p className="mb-4">
-              We will let You know via update the "Last updated" date at the top of this Privacy Policy.
+              We will let You know via update the &quot;Last updated&quot; date at the top of this Privacy Policy.
             </p>
             <p className="mb-6">
               You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
