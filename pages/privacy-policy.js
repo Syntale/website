@@ -177,7 +177,7 @@ const PrivacyPolicy = () => {
             <div className="space-y-2">
               <p>By email: <a href="mailto:kevincantaloupe@gmail.com" className="text-blue-400 hover:text-blue-300">kevincantaloupe@gmail.com</a></p>
               <p>By mail: 123 N Sea RD, Southampton, NY 11969, PO Box 1530</p>
-              <p>By Discord: <a href="https://discord.gg/syntale" className="text-blue-400 hover:text-blue-300" target="_blank" rel="noreferrer">https://discord.gg/syntale</a></p>
+              <p>By Discord: <a href="https://discord.com/invite/THwN4Ut7m3" className="text-blue-400 hover:text-blue-300" target="_blank" rel="noreferrer">https://discord.com/invite/THwN4Ut7m3</a></p>
             </div>
           </div>
         </div>

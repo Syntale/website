@@ -23,7 +23,7 @@ const AppsIndex = () => {
               your gaming experience across all platforms.
             </p>
             <a 
-              href="https://discord.com/invite/syntale" 
+              href="https://discord.com/invite/THwN4Ut7m3" 
               target="_blank" 
               rel="noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-pink-600 to-rose-600 text-white font-semibold rounded-full hover:from-pink-700 hover:to-rose-700 transform hover:scale-105 transition-all duration-300"

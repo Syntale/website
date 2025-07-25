@@ -23,7 +23,7 @@ const HostingIndex = () => {
               quality and reliability you&apos;ve come to expect from Syntale.
             </p>
             <a 
-              href="https://discord.com/invite/syntale" 
+              href="https://discord.com/invite/THwN4Ut7m3" 
               target="_blank" 
               rel="noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold rounded-full hover:from-purple-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-300"

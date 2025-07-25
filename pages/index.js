@@ -168,7 +168,7 @@ const Index = () => {
               Join our community and stay updated on new services
             </p>
             <a 
-              href="https://discord.com/invite/syntale" 
+              href="https://discord.com/invite/THwN4Ut7m3" 
               target="_blank" 
               rel="noreferrer"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"

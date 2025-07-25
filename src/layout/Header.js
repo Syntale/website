@@ -52,12 +52,12 @@ const Header = () => {
                 <Link href="/unturned">Unturned</Link>
               </li>
               <li className="menu-item">
-                <Link href="https://discord.com/invite/syntale" target="_blank" rel="noreferrer">Discord</Link>
+                <Link href="https://discord.com/invite/THwN4Ut7m3" target="_blank" rel="noreferrer">Discord</Link>
               </li>
             </ul>
           </div>
           <div className="nav_buttons">
-            <a href="https://discord.com/invite/syntale" className="neoh_fn_button" target="_blank" rel="noreferrer">
+            <a href="https://discord.com/invite/THwN4Ut7m3" className="neoh_fn_button" target="_blank" rel="noreferrer">
               <span className="icon">
                 <img src="svg/discord.svg" alt="" className="fn__svg" />
               </span>

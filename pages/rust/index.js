@@ -23,7 +23,7 @@ const RustIndex = () => {
               Join our Discord to stay updated on the launch!
             </p>
             <a 
-              href="https://discord.com/invite/syntale" 
+              href="https://discord.com/invite/THwN4Ut7m3" 
               target="_blank" 
               rel="noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white font-semibold rounded-full hover:from-orange-700 hover:to-red-700 transform hover:scale-105 transition-all duration-300"

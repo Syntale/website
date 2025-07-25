@@ -69,7 +69,7 @@ const UnturnedIndex = () => {
               </div>
               <div className="buttons">
                 <a
-                  href="https://discord.com/invite/syntale"
+                  href="https://discord.com/invite/THwN4Ut7m3"
                   target="_blank"
                   rel="noreferrer"
                   className="neoh_fn_button"
@@ -315,7 +315,7 @@ const UnturnedIndex = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://discord.com/invite/syntale"
+                href="https://discord.com/invite/THwN4Ut7m3"
                 target="_blank"
                 rel="noreferrer"
                 className="neoh_fn_button"
