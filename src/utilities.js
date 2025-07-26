@@ -41,7 +41,7 @@ export const stickyNav = () => {
   for (let i = 0; i < stickys.length; i++) {
     const sticky = stickys[i];
     if (sticky) {
-      if (offset > 10) {
+      if (offset > 70) {
         sticky.classList.add("fixer");
       } else {
         sticky.classList.remove("fixer");

@@ -3,7 +3,7 @@ const CopyrightComponent = () => {
     <p>
                   Copyright {new Date().getFullYear()} {" "}
                   <a
-                    href="https://discord.com/invite/syntale"
+                    href="https://discord.com/invite/THwN4Ut7m3"
                     target="_blank"
                     rel="noreferrer"
                   >
