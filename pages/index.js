@@ -72,10 +72,7 @@ const Index = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <div className={`transition-all duration-1000 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-              <img src="/img/logo-full.png" alt="Syntale" className="mx-auto mb-8 h-24 w-auto" />
-              <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Syntale
-              </h1>
+              <img src="/img/logo-full.png" alt="Syntale" className="mx-auto mb-8 h-40 w-auto" />
               <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
                 Your gateway to premium gaming experiences across multiple platforms
               </p>
